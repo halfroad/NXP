@@ -1,0 +1,20 @@
+-c
+-I../RTD/include
+-I"D:/Users/Jinhui/Documents/Projects/NXP/S32DesignStudio/S32K344EHT1VPBST/S32K344_MQFP172_DEMO_GPIO/include"
+-I"D:/Users/Jinhui/Documents/Projects/NXP/S32DesignStudio/S32K344EHT1VPBST/S32K344_MQFP172_DEMO_GPIO/generate/include"
+-I"D:/Users/Jinhui/Documents/Projects/NXP/S32DesignStudio/S32K344EHT1VPBST/S32K344_MQFP172_DEMO_GPIO/RTD/include"
+-I"D:/ProgramFiles/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/header"
+-I"D:/ProgramFiles/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include"
+-I"D:/ProgramFiles/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/include"
+-I"D:/ProgramFiles/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/startup/include"
+-I"D:/Users/Jinhui/Documents/Projects/NXP/S32DesignStudio/S32K344EHT1VPBST/S32K344_MQFP172_DEMO_GPIO/board"
+-x assembler-with-cpp
+-g3
+-mcpu=cortex-m7
+-mthumb
+-mlittle-endian
+-mfloat-abi=hard
+-mfpu=fpv5-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/ProgramFiles/NXP/S32DS.3.5/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"

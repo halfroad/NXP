@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+port-def=8087
+port-max=49157
+port-min=1027

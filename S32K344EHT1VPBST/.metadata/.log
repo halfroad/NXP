@@ -1,0 +1,234 @@
+!SESSION 2023-12-02 17:07:32.135 -----------------------------------------------
+eclipse.buildId=3.5.0.202207261815
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2023-12-02 17:07:44.410
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-02 17:07:44.410
+!MESSAGE Commands need a name: plug-in='com.nxp.s32ds.cle.cdt.sdk.ui'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-02 17:07:44.410
+!MESSAGE Commands need a name: plug-in='com.nxp.s32ds.cle.cdt.sdk.ui'
+
+!ENTRY org.eclipse.ui 2 0 2023-12-02 17:07:45.007
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-02 17:07:45.007
+!MESSAGE Commands need a name: plug-in='com.nxp.s32ds.cle.cdt.sdk.ui'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-02 17:07:45.007
+!MESSAGE Commands need a name: plug-in='com.nxp.s32ds.cle.cdt.sdk.ui'
+
+!ENTRY org.eclipse.equinox.registry 4 1 2023-12-02 17:07:45.179
+!MESSAGE Plug-in "org.eclipse.tm.terminal.view.ui" was unable to instantiate class "org.eclipse.tm.terminal.view.ui.internal.ExternalExecutablesState".
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:170)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2288)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:36)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:94)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2283)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1606)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2759)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:637)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm.terminal.view.ui.local.showin.detectors.DetectWSL.hasEntries(DetectWSL.java:43)
+	at org.eclipse.tm.terminal.view.ui.local.showin.ExternalExecutablesManager.hasEntries(ExternalExecutablesManager.java:68)
+	at org.eclipse.tm.terminal.view.ui.internal.ExternalExecutablesState.<init>(ExternalExecutablesState.java:29)
+	... 36 more
+Root exception:
+java.lang.NullPointerException
+	at org.eclipse.tm.terminal.view.ui.local.showin.detectors.DetectWSL.hasEntries(DetectWSL.java:43)
+	at org.eclipse.tm.terminal.view.ui.local.showin.ExternalExecutablesManager.hasEntries(ExternalExecutablesManager.java:68)
+	at org.eclipse.tm.terminal.view.ui.internal.ExternalExecutablesState.<init>(ExternalExecutablesState.java:29)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:170)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2288)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:36)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:94)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2283)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1606)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2759)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:637)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2023-12-02 17:07:46.705
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-02 17:07:46.705
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bdef8ee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,解锁所有设置,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@345d4ecb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-02 17:07:50.549
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\李进辉'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2023-12-02 17:07:50.830
+!MESSAGE Startup class com.freescale.sa.ui.preferences.SAPreferenceInitializer must implement org.eclipse.ui.IStartup
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.6.9 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.6.9 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.1 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.1 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.3 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.3 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.5 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:10.618
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.5 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_RTD_S32K3_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32ds.packs.pack.arm.tools.gcc102.id
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_AMMCLIB_S32K3xx_1.1.34_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32ds.packs.pack.gdb.tools.id
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_RTD_S32K3.P01_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_tools_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_RTD_S32K3XX_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32_platform_ide_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.114
+!MESSAGE Try add duplicate pack in registry with id s32ds.packages.s32k3.dev
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.130
+!MESSAGE Try add duplicate pack in registry with id s32_platform_RTD_S32K3XX.P01_package
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.130
+!MESSAGE Try add duplicate pack in registry with id s32ds.brc.arm.tools.gcc.1620
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.130
+!MESSAGE Try add duplicate pack in registry with id s32ds.packs.pack.arm.tools.gcc92_1649.id
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:08:30.130
+!MESSAGE Try add duplicate pack in registry with id com.pemicro.debug.gdbjtag.pne.packages
+
+!ENTRY com.nxp.s32ds.cle.ide.sdk.core 4 0 2023-12-02 17:10:57.145
+!MESSAGE Project 'S32K344_MQFP172_DEMO_GPIO' is not open.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-02 17:11:11.292
+!MESSAGE Indexed 'S32K344_MQFP172_DEMO_GPIO' (53 sources, 266 headers) in 10.3 sec: 9,794 declarations; 40,583 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2023-12-02 17:12:09.285
+!MESSAGE Debug session 'S32K344_MQFP172_DEMO_GPIO_Debug_FLASH_Segger' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2023-12-02 17:13:48.733
+!MESSAGE Debug session 'S32K344_MQFP172_DEMO_GPIO_Debug_FLASH_Segger' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2023-12-02 17:13:58.360
+!MESSAGE Debug session 'S32K344_MQFP172_DEMO_GPIO_Debug_FLASH_Segger' already started. Terminate the first one before restarting.
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:15:19.608
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.6.9 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:15:19.611
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.1 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:15:19.614
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.3 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2023-12-02 17:15:19.617
+!MESSAGE Duplicate pack GNU ARM PEMicro Interface Debugging Support,5.7.5 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.ext.rcp.registry 4 0 2023-12-02 17:15:25.637
+!MESSAGE Attempt to add duplicated instance of "interface com.nxp.s32ds.cle.runtime.hardware.registry.FamilyDescriptor" with id "S32K3" to map ignored
+
+!ENTRY com.nxp.s32ds.ext.rcp.registry 4 0 2023-12-02 17:15:25.637
+!MESSAGE Attempt to add duplicated instance of "interface com.nxp.s32ds.cle.runtime.hardware.registry.FamilyDescriptor" with id "S32K3" to map ignored

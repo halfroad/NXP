@@ -1,0 +1,24 @@
+17:11:27 **** Incremental Build of configuration Debug_FLASH for project S32K344_MQFP172_DEMO_GPIO ****
+make -j4 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K344_MQFP172_DEMO_GPIO.elf
+   text	   data	    bss	    dec	    hex	filename
+  66020	      4	  11612	  77636	  12f44	S32K344_MQFP172_DEMO_GPIO.elf
+Finished building: S32K344_MQFP172_DEMO_GPIO.siz
+ 
+17:11:38 **** Incremental Build of configuration Debug_FLASH for project S32K344_MQFP172_DEMO_GPIO ****
+make -j4 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K344_MQFP172_DEMO_GPIO.elf
+   text	   data	    bss	    dec	    hex	filename
+  66020	      4	  11612	  77636	  12f44	S32K344_MQFP172_DEMO_GPIO.elf
+Finished building: S32K344_MQFP172_DEMO_GPIO.siz
+ 
+17:15:15 **** Incremental Build of configuration Debug_FLASH for project S32K344_MQFP172_DEMO_GPIO ****
+make -j4 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K344_MQFP172_DEMO_GPIO.elf
+   text	   data	    bss	    dec	    hex	filename
+  66020	      4	  11612	  77636	  12f44	S32K344_MQFP172_DEMO_GPIO.elf
+Finished building: S32K344_MQFP172_DEMO_GPIO.siz
+ 

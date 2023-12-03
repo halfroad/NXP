@@ -1,0 +1,6 @@
+"Task Aware Debugger for GDB" version 11.7.0 (202311282214)
+(c) 2016-2022 NXP Semiconductors, Inc.
+==================================
+17:15:14.815 INFO: [ZephyrRTOS] .config file could not be read [D:\Users\Jinhui\Documents\Projects\NXP\S32DesignStudio\S32K344EHT1VPBST\S32K344_MQFP172_DEMO_GPIO\Debug_FLASH\.config (系统找不到指定的文件。)]
+17:15:14.815 INFO: [TadModel] DSF session ID 1 has started.
+17:20:56.222 INFO: [TadModel] DSF session ID 1 has ended.
