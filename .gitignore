@@ -55,6 +55,7 @@ dkms.conf
 .metadata
 .s32ds_packages_support
 .settings
+.config
 Debug_FLASH
 FreeRTOS_TAD_logs
 ZephyrRTOS_TAD_logs
