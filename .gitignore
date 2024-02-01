@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# S32DS runtime Folders
+.metadata
+.s32ds_packages_support
+.settings
+Debug_FLASH
+FreeRTOS_TAD_logs
+ZephyrRTOS_TAD_logs
+RemoteSystemsTempFiles
