@@ -75,7 +75,6 @@ extern "C" {
 
 
 
-void Delay(uint32 delay);
 void Delay(uint32 delay)
 {
     static volatile uint32 DelayTimer = 0;
